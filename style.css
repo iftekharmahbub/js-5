@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    border: 4px solid black;
+    padding: 30px 80px;
+    border-radius: 50px;
+    /* background-color: #FFFFF0; */
+    width: 1170px;
+    margin-top: 50px;
+}
+#count{
+    /* background-color: aquamarine; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#count .image{
+    width: 50%;
+}
+#count .image img{
+   padding-left: 50px;
+}
+#count .content{
+    width: 50%;
+}
+#count .content h3{
+    color: #3D5A80;
+}
+#count .content ul{
+    padding: 0  ;
+}
+#count .content ul li{
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 400;
+}
+#count .content ul .active{
+    font-size: 25px;
+    font-weight: 600;
+}
+#count .content .payment{
+    margin-top: 30px;
+}
+#count .content .payment h5{
+    font-size: 22px ;
+    font-weight: 600;
+    width: 100%;
+}
+#count .content .payment{
+    display: flex;
+    flex-direction: row;
+}
+#count .content .payment button{
+    padding: 12px 35px ;
+    background-color: #98C1D9;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+#count .content .payment input{
+    padding: 12px 30px ;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    width: 25%;
+    text-align: center;
+    background-color: aliceblue;
+}
+#count .content .payment button:hover{
+    background-color: #7994a3;
+}
+#count .content .discount {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30px;
+}
+#count .content .discount .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+#count .container .theme{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 50px;
+    width: 50%;
+}
+#count .container .theme h5{
+    font-size: 24px;
+    padding-right: 30px;
+
+}
+#count .container .theme span a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-left: 15px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 0.5px solid #d3d3d3;
+}
+#count .container .theme .color{
+    padding: 0 10px;
+}
+#count .container .theme .light a{
+    background-image: linear-gradient( to right, #FF4066, #FFF16A);
+}
+#count .container .theme .navy a{
+    background-image: linear-gradient( to left, #0700DE, #DDFFC9);
+}
+#count .container .theme .peach a{
+    background-image: linear-gradient( to right, #FF8473, #FFF9D2);
+}
+#count .container .theme .azure a{
+    background-image: linear-gradient(to right, #0172AF, #74FEBD);
+}
+#count .container .theme .random a{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+#count .container .back_theme .mode{
+    margin-top: 80px;
+    padding-right: 50px;
+}
+#count .default a{
+    border: 1px solid black;
+    background-color: #fff;
+}
+#count .container .back_theme .button{
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  #count .container .back_theme button{
+    padding: 15px 80px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
